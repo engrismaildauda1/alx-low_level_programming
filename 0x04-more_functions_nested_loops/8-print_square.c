@@ -3,7 +3,7 @@
 
 /**
  * print_square - Print square line dependent on int n.
- * @n : The number of lines using '*' characters to use per row and column
+ * @n : The number of lines using '#' characters to use per row and column
  * Return: Void.
  */
 void print_square(int n)
@@ -15,7 +15,7 @@ void print_square(int n)
 	{
 		for (i = 0; i < n; i++)
 		{
-			_putchar('*');
+			_putchar('#');
 		}
 		_putchar('\n');
 	}
