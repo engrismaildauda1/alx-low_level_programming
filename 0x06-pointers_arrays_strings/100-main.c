@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char s[] = "ROT13 (\"rotate by 13 places\", sometimes hyph  cipher.\n";
+	char s[] = "ROT13 (\"rotate b\", sometimes hyph  cipher.\n";
 	char *p;
 
 	p = rot13(s);
